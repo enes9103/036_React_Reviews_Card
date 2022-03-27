@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/036_React_Reviews_Card/static/css/main.286583a1.css",
+    "main.js": "/036_React_Reviews_Card/static/js/main.0104dc4a.js",
+    "index.html": "/036_React_Reviews_Card/index.html",
+    "static/media/quote.svg": "/036_React_Reviews_Card/static/media/quote.c2d861fbc914f115a24accc7aa7d7cf4.svg",
+    "static/media/next.svg": "/036_React_Reviews_Card/static/media/next.22bdcdcda3d4e4db4c742872e8bcb6cd.svg",
+    "static/media/prev.svg": "/036_React_Reviews_Card/static/media/prev.2afadaf66811e3cba04a06da62182ec1.svg",
+    "main.286583a1.css.map": "/036_React_Reviews_Card/static/css/main.286583a1.css.map",
+    "main.0104dc4a.js.map": "/036_React_Reviews_Card/static/js/main.0104dc4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.286583a1.css",
+    "static/js/main.0104dc4a.js"
+  ]
+}
