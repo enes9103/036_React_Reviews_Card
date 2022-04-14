@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 80vw;
+  max-width: 620px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1rem;
+  color: darkslategrey;
+}
+button {
+  margin: 0.5rem;
+  background-color: green;
+  color: antiquewhite;
+  border: none;
+}
+.arrow-right:hover {
+  box-shadow: -1px 0px 2px -1px black;
+}
+.arrow-left:hover {
+  box-shadow: 1px 0px 2px -1px black;
+}
+.surprise:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #555;
+  border-bottom: 25px solid transparent;
+  background-color: transparent;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #555;
+  border-bottom: 25px solid transparent;
+  background-color: transparent;
+}
+.surprise {
+  color: #49a6e9;
+  margin-top: 0.5rem;
+  background: #ebf7ff;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  border-color: transparent;
+  cursor: pointer;
+}
+.description {
+  height: 5rem;
+  padding: 1rem;
+}
+.job {
+  font-style: italic;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.img-container {
+  position: relative;
+}
+.tick {
+  position: absolute;
+  border-radius: 50%;
+  background: #49a6e9;
+  top: 0;
+  left: 22rem;
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.title h1 {
+  color: #102a42;
+  letter-spacing: .1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+.underline {
+  height: 0.3rem;
+  width: 7rem;
+  background: #49a6e9;
+  margin-left: auto;
+  margin-right: auto;
+}
